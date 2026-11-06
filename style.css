@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    border-radius: 15px;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    background-color: white;
+}
+
+body{
+    padding: 30px 20px 0px 20px;
+    background-color: #718665;
+}
+
+.couleur-friendhy{
+    background-color: green;
+    padding: 5px 8px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.couleur-friendhy a{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.bouton{
+    border: 1px solid white;
+    width: 8%;
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.bouton1{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.paragraphe-bas{
+    width: 100%;
+    text-align: justify;
+}
+
+.span-bas{
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(17, 65, 17);
+}
+
+.div1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 4px rgb(141, 140, 140);
+}
+
+.input-ale{
+    padding: 10px;
+    border-radius: 20px;
+    color: green;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nvg3{
+    display: flex;
+    gap: 10px;
+}
+
+.nvg2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.nvg{
+    width: 80%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto;
+    align-items: center;
+    padding: 5px 0px;
+    border-radius: 30px;
+    position: relative;
+    top: 130px;
+    background-color: #a9be83;
+}
+
+.Arriere-plan{
+    background: url(image.jpeg);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 8% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 60px;
+    color: white;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.logo a{
+    color: green;
+}
+
+.paragraphe{
+    width: 30%;
+    color: white;
+}
+
+.couleur{
+    background-color: green;
+    padding: 10px 20px 10px 35px;
+    border-radius: 20px;
+}
+
+.couleur a{
+    color: white;
+}
+
+.div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+li {
+    list-style: none;
+}
+
+nav{
+    width: 60%;
+}
+
+.bas{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 40px;
+    background-color: #cadab6;
+}
+
+.bloc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.milieur{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background-color: white;
+    padding-top: 80px;
+}
+
+.image-gauche{
+    border: 4px solid whitesmoke;
+    display: flex;
+    width: 45%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(175, 173, 173,1);
+}
+
+.cercle{
+    border: 2px solid white;
+    width: 6%;
+    padding: 20px 0px 20px 10px;
+    background-color: green;
+    border-radius: 50%; color: white;
+    position: relative;
+    top: 310px;
+    box-shadow: 0px 0px 4px white;
+}
+
+.img1{
+    width: 100%;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+}
+
+.welcom{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.paragraphe-milieur{
+    width: 80%;
+    text-align: justify;
+}
+
+.number{
+    background-color: green;
+    padding: 0px 5px;
+    border-radius: 50%;
+}
+
+@media (max-width:1107px) {
+    .welcom{
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+
+    .menu{
+        position: relative;
+        top: 110px;
+    }
+
+    .cercle{
+        padding: 20px 53px 20px 10px;
+        position: relative;
+        top: 285px;
+    }
+}
+
+@media (max-width:1000px) {
+    .menu{
+        position: relative;
+        top: 100px;
+    }
+
+    .cercle{
+        top: 280px;
+    }
+
+    .welcom{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:985px) {
+    .menu{
+        width: 100%;
+    }
+}
+
+@media (max-width:784px) {
+    .menu{
+        position: relative;
+        top: 80px;
+    }
+
+    .cercle{
+         top: 260px;
+    }
+}
+
+@media (max-width:740px) {
+    h1{
+        font-size: 20px;
+    }
+
+    .milieur{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:540px) {
+    .menu{
+        position: relative;
+        top: 60px;
+    }
+
+    .cercle{
+        position: relative;
+        top: 240px;
+        left: 20px;
+    }
+
+    .span-bas{
+        font-size: 15px;
+    }
+
+    .navigation, .couleur{
+        display: none;
+    }
+
+    h1{
+        font-size: 20px;
+        width: 70%;
+        box-sizing: border-box;
+    }
+
+    .paragraphe{
+        width: 60%;
+        text-align: justify;
+    }
+}
+
+@media (max-width:375px) {
+    .menu{
+        width: 100%;
+    }
+
+    .image-gauche{
+        width: 100%;
+    }
+
+    .droite{
+        width: 100%;
+    }
+}
+
+@media (max-width:393px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .droite{
+        width: 100%;
+    }
+}
+
+@media (max-width:440px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .droite{
+        width: 100%;
+    }
+}
+
+@media (max-width:360px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .droite{
+        width: 100%;
+    }
+}
+
+@media (max-width:602px) {
+    .menu{
+        position: relative;
+        top: 70px;
+    }
+
+    .cercle{
+        position: relative;
+        top: 240px;
+        left: 30px;
+    }
+
+    .image-gauche{
+        width: 100%;
+    }
+
+    .droite{
+        width: 100%;
+    }
+
+    .span-bas{
+        font-size: 15px;
+    }
+
+    .paragraphe{
+        width: 50%;
+    }
+}
+
+@media (max-width:375px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .paragraphe-milieur{
+        width: 100%;
+    }
+
+    .cercle{
+        position: relative;
+        top: 230px;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    .paragraphe{
+        width: 70%;
+    }
+
+    .menu{
+        position: relative;
+        top: 50px;
+    }
+
+    .bouton1{
+        font-size: 10px;
+    }
+
+    .span-bas{
+        font-size: 14px;
+    }
+
+    .lien a{
+font-size: 8px;
+    }
+}
+
+@media (max-width:393px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .paragraphe-milieur{
+        width: 100%;
+    }
+
+    .cercle{
+        position: relative;
+        top: 230px;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    .paragraphe{
+        width: 70%;
+    }
+
+    .menu{
+        position: relative;
+        top: 50px;
+    }
+
+    .bouton1{
+        font-size: 10px;
+    }
+
+    .span-bas{
+        font-size: 14px;
+    }
+
+    .lien a{
+font-size: 8px;
+    }
+}
+
+@media (max-width:440px) {
+    .image-gauche{
+        width: 100%;
+    }
+
+    .paragraphe-milieur{
+        width: 100%;
+    }
+
+    .cercle{
+        position: relative;
+        top: 230px;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    .paragraphe{
+        width: 70%;
+    }
+
+    .menu{
+        position: relative;
+        top: 50px;
+    }
+
+    .bouton1{
+        font-size: 10px;
+    }
+
+    .span-bas{
+        font-size: 14px;
+    }
+
+    .lien a{
+font-size: 8px;
+    }
+}
